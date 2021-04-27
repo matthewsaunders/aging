@@ -1,0 +1,35 @@
+{
+  "name": "smatt-lab.aging",
+  "description": "aging",
+  "version": "0.0.0",
+  "author": "msaun008",
+  "repository": {
+    "type": "git",
+    "url": "Add github URL here"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "aha-cli": "^1.9.2"
+  },
+  "ahaExtension": {
+    "cspSources": [],
+    "contributes": {
+      "views": {
+        "samplePage": {
+          "title": "Sample page",
+          "host": "page",
+          "entryPoint": "src/views/samplePage.js",
+          "location": {
+            "menu": "Work"
+          }
+        }
+      },
+      "commands": {
+        "sampleCommand": {
+          "title": "Sample command",
+          "entryPoint": "src/commands/sampleCommand.js"
+        }
+      }
+    }
+  }
+}
